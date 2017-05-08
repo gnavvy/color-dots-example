@@ -1,0 +1,20 @@
+{
+  "name": "color-dots-example",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --progress --hot --port 3000 --open"
+  },
+  "dependencies": {
+    "d3-color": "^1.0.3",
+    "deck.gl": "^4.0.6",
+    "luma.gl": "^3.0.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "buble-loader": "^0.4.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
